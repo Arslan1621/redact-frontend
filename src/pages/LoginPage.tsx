@@ -65,7 +65,7 @@ const LoginPage: React.FC = () => {
                   footerActionLink: 'text-purple-600 hover:text-purple-700',
                 }
               }}
-              redirectUrl="www.facebook.com"
+              redirectUrl="/dashboard"
             />
           </div>
         </motion.div>
