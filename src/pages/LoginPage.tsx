@@ -2,6 +2,7 @@ import React from 'react';
 import { SignIn } from '@clerk/clerk-react';
 import { motion } from 'framer-motion';
 import { Shield, FileText } from 'lucide-react';
+import DashboardPage from './pages/DashboardPage';
 
 const LoginPage: React.FC = () => {
   return (
@@ -64,7 +65,7 @@ const LoginPage: React.FC = () => {
                   footerActionLink: 'text-purple-600 hover:text-purple-700',
                 }
               }}
-              redirectUrl="/dashboard"
+              redirectUrl="www.facebook.com"
             />
           </div>
         </motion.div>
