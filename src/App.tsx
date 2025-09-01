@@ -9,7 +9,7 @@ import SignUpPage from './pages/SignUpPage';
 import DashboardPage from './pages/DashboardPage';
 import './styles/globals.css';
 
-const clerkPubKey = "pk_test_YnJhdmUtc2xvdGgtMTMuY2xlcmsuYWNjb3VudHMuZGV2JA";
+const clerkPubKey = "pk_live_Y2xlcmsud2F3Y2Qub3JnJA";
 
 function App() {
   return (
