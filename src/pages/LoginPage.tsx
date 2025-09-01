@@ -2,7 +2,7 @@ import React from 'react';
 import { SignIn } from '@clerk/clerk-react';
 import { motion } from 'framer-motion';
 import { Shield, FileText } from 'lucide-react';
-import DashboardPage from './pages/DashboardPage';
+// Removed unused import
 
 const LoginPage: React.FC = () => {
   return (
